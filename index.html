@@ -168,6 +168,40 @@
       </tr>
     </table>
   </section>
+  <section class="order">
+    <h2 class="caption">Заказать</h2>
+    <p>
+      Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас.
+      При заказе от 10 баррелей — скидка 10%.
+    </p>
+    <form class="order-form" action="#" method="post">
+      <label for="fullname">Представьтесь:</label>
+      <input type="text" name="fullname" id="fullname" class="order-form__fullname">
+      <br>
+      <label for="phone">Номер телефона:</label>
+      <input type="text" name="phone" id="phone" class="order-form__phone">
+      <br>
+      <label for="additional-phone">Доп. номер:</label>
+      <input type="text" name="additional-phone" id="additional-phone" class="order-form__additional-phone">
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" class="order-form__email">
+      <br>
+      <label for="amount">Объём заказа:</label>
+      <br>
+      <select name="amount" id="amount" class="order-form__amount">
+        <option value="from5to10" selected>От 5 до 10 баррелей в неделю</option>
+      </select>
+      <br>
+      <label for="comment" class="oreder-form__comment">Доп. комментарий:</label>
+      <textarea name="comment" id="comment"></textarea>
+      <br>
+      <input type="checkbox" class="order-form__subscribe" name="subscribe" id="subscribe" checked>
+      <label for="subscribe">Я согласен получать квасную рассылку</label>
+      <br>
+      <input type="submit" class="order-form__submit" value="Отправить заказ">
+    </form>
+  </section>
 </body>
 
 </html>
