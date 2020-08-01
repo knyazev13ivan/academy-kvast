@@ -13,6 +13,7 @@ body {
 }
 .clearfix {
     clear: both;
+    display: table;
 }
 .page-header {
     background: url('img/wheat-back.jpg') bottom no-repeat;
@@ -59,6 +60,116 @@ body {
     line-height: 70px;
     color: #ffffff;
 }
+.news {
+    width: 800px;
+    margin: auto;
+}
+.news .caption {
+    display: block;
+    margin: 80px 0 75px 0;
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.news .product {
+    position: relative;
+    display: inline-block;
+    width: 339px;
+    padding: 0 25px 0 34px;
+}
+.product1 {
+    float: left;
+    /* margin-right: -20px; */
+    border-right: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+}
+.product2 {
+    float: left;
+    /* width: 340px; */
+    margin-left: -1px;
+    border-right: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+}
+.news .product .product__name {
+    margin: 0;
+    padding: 0 0 30px 0;
+    line-height: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.news .product .product__detail {
+    position: absolute;
+    top: 85px;
+    right: 25px;
+    /* float: right; */
+    width: 150px;
+    border-collapse: collapse;
+    border: 1px solid #e5e5e5;
+    font-weight: bold;
+}
+.news .product .product__detail td {
+    padding: 11px 10px;
+    text-transform: uppercase;
+    border: 1px solid #e5e5e5;
+}
+.news .product .product__composition {
+    position: absolute;
+    top: 164px;
+    right: 25px;
+    display: inline-block;
+    width: 150px;
+    clear: both;
+    float: right;
+    font-size: 14px;
+    line-height: 24px;
+}
+.news .product .product__img {
+    /* top: 150px; */
+    /* left: 25px; */
+    margin-left: 10px;
+    /* width: 100px; */
+    z-index: -1;
+}
+.product__description {
+    padding: 0;
+    margin: 6px 0 0 0;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+.product__more-details {
+    display: inline-block;
+    padding: 13px 18px;
+    margin-right: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #834700;
+    border: 2px solid #834700;
+}
+.product__buy {
+    display: inline-block;
+    padding: 14px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #834700;
+    background: #834700;
+}
+.product__price {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
 * {
     /* outline: 2px solid orange; outline-offset: -2px; */
 }
