@@ -320,8 +320,7 @@ body {
     padding: 0;
 }
 .press__source {
-    display: inline-block;
-    vertical-align: bottom;
+    display: block;
     float: right;
     margin: 0 1px 0 0;
     padding-top: 10px;
@@ -333,7 +332,7 @@ body {
     font-weight: bold;
 }
 .press__more-detail {
-    display: inline-block;
+    display: block;
     float: left;
     padding: 13px 20px;
     font-size: 16px;
@@ -488,11 +487,101 @@ body {
     text-transform: uppercase;
     font-weight: bold;
 }
-
-
-section {
-    /* display: none; */
+.page-footer {
+    height: 200px;
+    padding: 60px 0;
+    background: #000;
 }
-* {
-    /* outline: 2px solid orange; outline-offset: -2px; */
+.page-footer .menu {
+    display: block;
+    height: 76px;
+}
+.page-footer .page-footer__logo {
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 47px;
+}
+.page-footer .menu__list {
+    display: block;
+    float: right;
+    list-style: none;
+    width: 600px;
+    padding: 0;
+    margin: 7px 107px 0 0;
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+}
+.page-footer .menu__list li {
+    display: inline-block;
+    padding: 0;
+    margin: 0 50px 0 0;
+}
+.page-footer .menu__list li a {
+    display: inline-block;
+    padding: 14px 0 13px 0;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 30px;
+}
+.page-footer .menu__list li:last-child {
+    margin-right: 0;
+}
+.contact {
+    height: 68px;
+}
+.social {
+    display: block;
+    float: left;
+    height: 70px;
+    margin-top: -15px;
+}
+.social .social-item {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0;
+    width: 68px;
+    height: 68px;
+    border: 1px solid #322d24;
+}
+.social .social-item:nth-child(1) {
+    background: #1b1b1b url('img/icon-insta.png') 50% 50% no-repeat;
+    margin-right: -5px;
+}
+.social .social-item:nth-child(2) {
+    background: #1b1b1b url('img/icon-fb.png') 50% 50% no-repeat;
+    margin-right: -5px;
+}
+.social .social-item:nth-child(3) {
+    background: #1b1b1b url('img/icon-vk.png') 50% 50% no-repeat;
+}
+.copy-right {
+    display: block;
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 200px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #989898;
+}
+.development {
+    display: block;
+    float: right;
+    color: #989898;
+    width: 307px;
+}
+.development a {
+    margin-top: -16px;
+    display: inline-block;
+    background: #1b1b1b;
+    border: 1px solid #322d24;
+    width: 70px;
+    height: 70px;
+}
+.development__img {
+    margin: 20px;
 }
