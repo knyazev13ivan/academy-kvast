@@ -344,6 +344,63 @@ body {
     color: #bcb6ab;
     border: 2px solid #a5a097;
 }
+.assortiment {
+    padding: 90px 0 80px 0;
+}
+.assortiment .caption {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.assortiment table {
+    border-collapse: collapse;
+    margin-top: 75px;
+}
+.assortiment table tr th {
+    padding: 1px 0 30px 0;
+    font-size: 11px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #999999;
+    text-align: left;
+}
+.assortiment table tr td {
+    padding: 17px 42px 17px 0;
+    font-size: 16px;
+    line-height: 30px;
+    color: #404040;
+    text-transform: uppercase;
+    /* border: 1px solid #000; */
+}
+.assortiment table tr {
+    border-bottom: 1px solid #e5e5e5;
+}
+.assortiment table tr .assortiment__name {
+    font-weight: bold;
+    width: 360px;
+    color: #000;
+}
+.assortiment table tr .assortiment__name .assortiment__new-product {
+    display: inline-block;
+    margin-top: 4px;
+    margin-left: 20px;
+    padding: 1px 5px;
+    font-size: 8px;
+    line-height: 10px;
+    background: #000;
+    border-radius: 2px;
+    color: #ffffff;
+
+}
+.assortiment table tr .assortiment__price {
+    padding-right: 0;
+    width: 148px;
+    text-align: right;
+}
 
 
 
