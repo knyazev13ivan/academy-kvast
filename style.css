@@ -63,6 +63,7 @@ body {
 .news {
     width: 800px;
     margin: auto;
+    margin-bottom: 100px;
 }
 .news .caption {
     display: block;
@@ -120,16 +121,13 @@ body {
     right: 25px;
     display: inline-block;
     width: 150px;
+    color: #404040;
     clear: both;
-    float: right;
     font-size: 14px;
     line-height: 24px;
 }
 .news .product .product__img {
-    /* top: 150px; */
-    /* left: 25px; */
     margin-left: 10px;
-    /* width: 100px; */
     z-index: -1;
 }
 .product__description {
@@ -137,12 +135,13 @@ body {
     margin: 6px 0 0 0;
     font-size: 16px;
     line-height: 30px;
+    color: #404040;
     margin-bottom: 60px;
 }
 .product__more-details {
     display: inline-block;
-    padding: 13px 18px;
-    margin-right: 5px;
+    padding: 14px 20px;
+    margin-right: 3px;
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
@@ -168,7 +167,65 @@ body {
     font-weight: bold;
     text-transform: uppercase;
 }
-
+.pluses {
+    background-color: #ffcb78;
+    padding: 80px 0;
+}
+.pluses ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.plus {
+    display: inline-block;
+    margin: 0;
+    padding: 0 92px;
+    border-left: 1px solid #e5b66c;
+    border-right: 1px solid #e5b66c;
+    width: 218px;
+}
+.plus::before {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin-right: -80px;
+}
+.plus:nth-child(1)::before {
+    background: url('img/icon-brew.png') no-repeat;
+}
+.plus:nth-child(2)::before {
+    background: url('img/icon-matreshka.png') no-repeat;
+}
+.plus:nth-child(3)::before {
+    background: url('img/icon-thumbsup.png') no-repeat;
+}
+.plus:first-child {
+    border: none;
+    padding: 0 88px 0 0;
+}
+.plus:last-child {
+    border: none;
+    padding: 0 0 0 88px;
+}
+.plus:not(:first-child) {
+    margin-left: -5px;
+}
+.plus h2 {
+    margin: 20px 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.plus p {
+    margin: 0;
+    padding: 0;
+    color: #404040;
+    font-size: 16px;
+    line-height: 30px;
+}
 
 * {
     /* outline: 2px solid orange; outline-offset: -2px; */
